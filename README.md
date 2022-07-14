@@ -10,7 +10,7 @@ Implemented Face Recognition system by using pretrained faceEvolve model and Fai
 * [Installation](#installation)
 * [Libary Usage](#usage)
 * [Contributors](#contributors)
-* [Tests](#tests)
+* [Benchmark and Models](#benchmark)
 * [Questions](#questions)
 
 <a name="installation"></a>
@@ -42,9 +42,12 @@ This application is released under the MIT License.
 * usndangol97
 
 
-<a name="tests"></a>
-## Tests 
-No test instructions for this yet
+<a name="benchmark"></a>
+## Benchmark and Models 
+| Backbone | Head | Dataset | Accuracy |
+|:--------:|:----:|:--------:|
+| IR-50 | ArcFace | Custom dataset | 97% |
+| IR-50 | ArcFace | LFW dataset | 95% |
 
 <a name="questions"></a>
 ### Questions
