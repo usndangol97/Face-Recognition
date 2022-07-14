@@ -45,7 +45,7 @@ This application is released under the MIT License.
 <a name="benchmark"></a>
 ## Benchmark and Models 
 | Backbone | Head | Dataset | Accuracy |
-|:--------:|:----:|:--------:|
+| -------- | ---- | ------- | -------- |
 | IR-50 | ArcFace | Custom dataset | 97% |
 | IR-50 | ArcFace | LFW dataset | 95% |
 
