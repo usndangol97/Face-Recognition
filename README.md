@@ -9,8 +9,10 @@ Implemented Face Recognition system by using pretrained faceEvolve model and Fai
 
 * [Installation](#installation)
 * [Libary Usage](#usage)
-* [Contributors](#contributors)
+* [Demos](#demos)
 * [Benchmark and Models](#benchmark)
+* [License](#license)
+* [Contributors](#contributors)* 
 * [Questions](#questions)
 
 <a name="installation"></a>
@@ -25,11 +27,20 @@ Clone this github repository and open the file in any IDE of your choice. Instal
 * Pytorch
 
 
+<a name="demos"></a>
 ## Demos
 ```bash
 # From the project root directory
 Python3 faceEvolve.py
 ```
+
+
+<a name="benchmark"></a>
+## Benchmark and Models 
+| Backbone | Head | Dataset | Accuracy |
+| -------- | ---- | ------- | -------- |
+| IR-50 | ArcFace | Custom dataset | 97% |
+| IR-50 | ArcFace | LFW dataset | 95% |
 
 
 <a name="license"></a>
@@ -41,13 +52,6 @@ This application is released under the MIT License.
 ## Contributors 
 * usndangol97
 
-
-<a name="benchmark"></a>
-## Benchmark and Models 
-| Backbone | Head | Dataset | Accuracy |
-| -------- | ---- | ------- | -------- |
-| IR-50 | ArcFace | Custom dataset | 97% |
-| IR-50 | ArcFace | LFW dataset | 95% |
 
 <a name="questions"></a>
 ### Questions
